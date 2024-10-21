@@ -1,14 +1,15 @@
 <template>
-    <div>
-        <NavBar />
-        <main>
-            <div class="max-w-[1200px] mx-auto">
+    <main>
+        <div class="bg-gray-100 h-full">
+            <NavBar />
+            <main>
                 <router-view />
-            </div>
-        </main>
-    </div>
+            </main>
+        </div>
+    </main>
 </template>
-  
+
+
 <script setup>
 import NavBar from "../components/NavBar.vue";
 </script>
